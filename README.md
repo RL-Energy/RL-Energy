@@ -7,15 +7,14 @@ Machine learning for process system design
 A reinforcement learning (RL) based automated system for chemical engineering systems conceptual design is introduced and demonstrated. An artificial intelligence (AI) agent performs the conceptual design by automatically deciding which process-units are necessary for the desired system, picking the process-units from the candidate process-units pool (CPP), connecting them together, and optimizing the operation of the system for the user-defined system performance targets. The AI agent automatically selects units from the user-defined CPPs, connects them to construct flowsheets, and optimizes the system design according to the user’s desired objective. The AI agent automatically interacts with a physics-based system-level modeling and simulation toolset, the Institute for the Design of Advanced Energy System (IDAES) Integrated Platform, to guarantee the system design is physically consistent.
 Three examples, hydrodealkylation of toluene (HDA), methanol synthesis systems and reduced order model (ROM) of solid oxide fuel cell multi-physics (SOFC-MP) model are provided to get started with the RL model. See Installation section and readme file in example folder for more details.
 ## Installation
-Python 3.7-3.9 (https://www.python.org/downloads/) or anaconda (https://docs.anaconda.com/anaconda/install/index.html)
-Tensorflow (https://www.tensorflow.org/install)
-Tensorflow_addons library (https://www.tensorflow.org/addons/overview)
- 
-For graphic neural network, the stellargraph graph library is needed. 
+* Python 3.7-3.9 (https://www.python.org/downloads/) or anaconda (https://docs.anaconda.com/anaconda/install/index.html)
+* Tensorflow (https://www.tensorflow.org/install)
+* Tensorflow_addons library (https://www.tensorflow.org/addons/overview)
+* For graphic neural network, the stellargraph graph library is needed. 
 pip install stellargraph
 conda install -c stellargraph stellargraph
 
-Ideas
+* Ideas
 See https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html for more details.
 
 
