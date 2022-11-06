@@ -9,13 +9,15 @@ A reinforcement learning (RL) based automated system for chemical engineering sy
 
 Three examples, hydrodealkylation of toluene (HDA), methanol synthesis systems and reduced order model (ROM) of solid oxide fuel cell multi-physics (SOFC-MP) model are provided to get started with the RL model. See Installation section and readme file in example folder for more details.
 ## Installation
+
+The following libraries are needed.
 * Python 3.7-3.9 (https://www.python.org/downloads/) or anaconda (https://docs.anaconda.com/anaconda/install/index.html)
 * Tensorflow (https://www.tensorflow.org/install)
 * Tensorflow_addons library (https://www.tensorflow.org/addons/overview)
 * For graphic neural network, the stellargraph graph library is needed. 
 
-pip install stellargraph
-conda install -c stellargraph stellargraph
+  pip install stellargraph
+  conda install -c stellargraph stellargraph
 
 * Ideas
 See https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html for more details.
