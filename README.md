@@ -16,8 +16,7 @@ The following libraries are needed.
 * Tensorflow_addons library (https://www.tensorflow.org/addons/overview)
 * For graphic neural network, the stellargraph graph library is needed. 
 
-  pip install stellargraph
-  conda install -c stellargraph stellargraph
+  pip install stellargraph or conda install -c stellargraph stellargraph
 
 * Ideas
 See https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html for more details.
