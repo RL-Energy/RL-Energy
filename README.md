@@ -18,8 +18,9 @@ The following libraries are needed.
 
   pip install stellargraph or conda install -c stellargraph stellargraph
 
-* Ideas
-See https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html for more details.
+* IDAES
+
+  See https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html for more details.
 
 ## Collaborators
 Collaborators: [PNNL](https://www.pnnl.gov/), [NETL](https://www.netl.doe.gov/), and [UW](https://www.washington.edu/) 
