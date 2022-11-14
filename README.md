@@ -34,7 +34,7 @@ The user can find the anaconda package for various operation systems on https://
   The IDAES library was integrated into the platform that supports the full process modeling from flowsheet design to dynamic optimization and control within a single modeling environment.
 
   Python:
-  1.	Install IDEAS.
+  1.	Install IDAES.
   
       pip install idaes-pse
     
@@ -43,7 +43,7 @@ The user can find the anaconda package for various operation systems on https://
       idaes get-extensions
 
   Anaconda:
-  1.	Install IDEAS.
+  1.	Install IDAES.
   
       conda install --yes -c IDAES-PSE -c conda-forge idaes-pse
   
