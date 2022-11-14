@@ -13,7 +13,8 @@ Three examples, hydrodealkylation of toluene (HDA), methanol synthesis systems a
 
 The following libraries are needed.
 * Python
-For Windows system, download the installer package from https://www.python.org/downloads/windows/ versions 3.7-3.9 are recommended. For MAC OS user, it can be download from https://www.python.org/downloads/macos/ 
+
+  For Windows system, download the installer package from https://www.python.org/downloads/windows/ versions 3.7-3.9 are recommended. For MAC OS user, it can be   download from https://www.python.org/downloads/macos/ 
 Note that to run the examples of Jupyter Notebook, anaconda may be needed (https://docs.anaconda.com/anaconda/install/index.html)
 The user can find the anaconda package for various operation systems on https://www.anaconda.com/products/distribution#Downloads 
 * Tensorflow
