@@ -35,14 +35,18 @@ The user can find the anaconda package for various operation systems on https://
 
   Python:
   1.	Install IDEAS.
+  
   pip install idaes-pse
   2.	Run the idaes get-extensions command to install the compiled binaries. These binaries include solvers and function libraries.
+  
   idaes get-extensions
 
   Anaconda:
   1.	Install IDEAS.
+  
   conda install --yes -c IDAES-PSE -c conda-forge idaes-pse
   2.	Run the idaes get-extensions command to install the compiled binaries. These binaries include solvers and function libraries.
+  
   idaes get-extensions
 
   More details can be found on https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html.
