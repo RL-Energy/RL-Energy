@@ -18,41 +18,45 @@ The following libraries are needed.
 Note that to run the examples of Jupyter Notebook, anaconda may be needed (https://docs.anaconda.com/anaconda/install/index.html)
 The user can find the anaconda package for various operation systems on https://www.anaconda.com/products/distribution#Downloads 
 * Tensorflow
-The RL code use TensorFlow as the backend. The user can download TensorFlow on the website (https://www.tensorflow.org/install). The RL code is based on TensorFlow 1.0, but TensorFlow 2.0 is compatible. TensorFlow can be installed by pip or docker. 
 
-Python:
-pip install tensorflow
+  The RL code use TensorFlow as the backend. The user can download TensorFlow on the website (https://www.tensorflow.org/install). The RL code is based on TensorFlow 1.0, but TensorFlow 2.0 is compatible. TensorFlow can be installed by pip or docker. 
 
-Docker:
-docker pull tensorflow/tensorflow:latest 
-docker run -it -p 8888:8888 tensorflow/tensorflow:latest-jupyter
+  Python:
+  pip install tensorflow
 
-The GPU version is recommended if the user has Nvidia GPU support. Note that the cudatoolkit and cudnn libraries are needed when installing TensorFlow GPU version.
+  Docker:
+  docker pull tensorflow/tensorflow:latest 
+  docker run -it -p 8888:8888 tensorflow/tensorflow:latest-jupyter
+
+  The GPU version is recommended if the user has Nvidia GPU support. Note that the cudatoolkit and cudnn libraries are needed when installing TensorFlow GPU version.
 * IDAES (Institute for the Design of Advanced Energy Systems) library
+  
   The IDAES library was integrated into the platform that supports the full process modeling from flowsheet design to dynamic optimization and control within a single modeling environment.
 
-Python:
-1.	Install IDEAS.
-pip install idaes-pse
-2.	Run the idaes get-extensions command to install the compiled binaries. These binaries include solvers and function libraries.
-idaes get-extensions
+  Python:
+  1.	Install IDEAS.
+  pip install idaes-pse
+  2.	Run the idaes get-extensions command to install the compiled binaries. These binaries include solvers and function libraries.
+  idaes get-extensions
 
-Anaconda:
-1.	Install IDEAS.
-conda install --yes -c IDAES-PSE -c conda-forge idaes-pse
-2.	Run the idaes get-extensions command to install the compiled binaries. These binaries include solvers and function libraries.
-idaes get-extensions
+  Anaconda:
+  1.	Install IDEAS.
+  conda install --yes -c IDAES-PSE -c conda-forge idaes-pse
+  2.	Run the idaes get-extensions command to install the compiled binaries. These binaries include solvers and function libraries.
+  idaes get-extensions
 
-More details can be found on https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html.
+  More details can be found on https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html.
 
 
 * Tensorflow_addons library 
+  
   Python:
   pip install tensorflow-addons
 
   Or download the library (https://www.tensorflow.org/addons/overview)
   
 * Stellargraph graph library
+  
   For graphic neural network, the stellargraph graph library is needed. 
 
   Python:
