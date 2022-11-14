@@ -12,16 +12,55 @@ Three examples, hydrodealkylation of toluene (HDA), methanol synthesis systems a
 ## Installation
 
 The following libraries are needed.
-* Python 3.7-3.9 (https://www.python.org/downloads/) or anaconda (https://docs.anaconda.com/anaconda/install/index.html)
-* Tensorflow (https://www.tensorflow.org/install)
-* Tensorflow_addons library (https://www.tensorflow.org/addons/overview)
-* For graphic neural network, the stellargraph graph library is needed. 
+* Python
+For Windows system, download the installer package from https://www.python.org/downloads/windows/ versions 3.7-3.9 are recommended. For MAC OS user, it can be download from https://www.python.org/downloads/macos/ 
+Note that to run the examples of Jupyter Notebook, anaconda may be needed (https://docs.anaconda.com/anaconda/install/index.html)
+The user can find the anaconda package for various operation systems on https://www.anaconda.com/products/distribution#Downloads 
+* Tensorflow
+The RL code use TensorFlow as the backend. The user can download TensorFlow on the website (https://www.tensorflow.org/install). The RL code is based on TensorFlow 1.0, but TensorFlow 2.0 is compatible. TensorFlow can be installed by pip or docker. 
 
-  pip install stellargraph or conda install -c stellargraph stellargraph
+Python:
+pip install tensorflow
 
-* IDAES
+Docker:
+docker pull tensorflow/tensorflow:latest 
+docker run -it -p 8888:8888 tensorflow/tensorflow:latest-jupyter
 
-  See https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html for more details.
+The GPU version is recommended if the user has Nvidia GPU support. Note that the cudatoolkit and cudnn libraries are needed when installing TensorFlow GPU version.
+* IDAES (Institute for the Design of Advanced Energy Systems) library
+  The IDAES library was integrated into the platform that supports the full process modeling from flowsheet design to dynamic optimization and control within a single modeling environment.
+
+Python:
+1.	Install IDEAS.
+pip install idaes-pse
+2.	Run the idaes get-extensions command to install the compiled binaries. These binaries include solvers and function libraries.
+idaes get-extensions
+
+Anaconda:
+1.	Install IDEAS.
+conda install --yes -c IDAES-PSE -c conda-forge idaes-pse
+2.	Run the idaes get-extensions command to install the compiled binaries. These binaries include solvers and function libraries.
+idaes get-extensions
+
+More details can be found on https://github.com/IDAES/idaes-pse and https://idaes-pse.readthedocs.io/en/stable/tutorials/getting_started/index.html.
+
+
+* Tensorflow_addons library 
+  Python:
+  pip install tensorflow-addons
+
+  Or download the library (https://www.tensorflow.org/addons/overview)
+  
+* Stellargraph graph library
+  For graphic neural network, the stellargraph graph library is needed. 
+
+  Python:
+  pip install stellargraph
+
+  Anaconda:
+  conda install -c stellargraph stellargraph
+
+  Or download the library (https://www.stellargraph.io/) 
 
 ## Collaborators
 Collaborators: [PNNL](https://www.pnnl.gov/), [NETL](https://www.netl.doe.gov/), and [UW](https://www.washington.edu/) 
